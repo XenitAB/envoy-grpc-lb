@@ -20,7 +20,7 @@ Or by including the chart as a dependcy in another chart.
 ```yaml
 dependencies:
 - name: "envoy-grpc-lb"
-  version: "v0.1.0"
+  version: "v0.1.1"
   repository: "https://xenitab.github.io/envoy-grpc-lb"
   alias: envoyGrpcLb
   condition: envoy-grpc-lb.enabled
