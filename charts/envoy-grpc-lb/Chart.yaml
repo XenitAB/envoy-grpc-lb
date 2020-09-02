@@ -3,4 +3,4 @@ name: envoy-grpc-lb
 description: Helm chart to setup a Envoy GRPC load balancer
 type: application
 version: v0.1.0
-appVersion: v1.11.1
+appVersion: 1.11.1
