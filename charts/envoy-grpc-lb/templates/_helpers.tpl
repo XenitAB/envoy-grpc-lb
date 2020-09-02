@@ -60,3 +60,11 @@ Create the name of the service account to use
 {{- default "default" .Values.serviceAccount.name }}
 {{- end }}
 {{- end }}
+
+{{- define "envoy-grpc-lb.serivceName" -}}
+{{ include "envoy-grpc-lb.fullname" . }}
+{{- end -}}
+
+{{- define "envoy-grpc-lb.targetHost" -}}
+{{ .Values.loadbalancer.targetHost }}
+{{- end -}}

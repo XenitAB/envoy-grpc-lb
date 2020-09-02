@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: {{ include "envoy-grpc-lb.fullname" . }}
+  name: {{ include "envoy-grpc-lb.serivceName" . }}
   labels:
     {{- include "envoy-grpc-lb.labels" . | nindent 4 }}
 spec:

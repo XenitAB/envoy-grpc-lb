@@ -49,5 +49,5 @@ data:
         http2_protocol_options: {}
         hosts:
         - socket_address:
-            address: {{ .Values.loadbalancer.targetHost }}
+            address: {{ include "envoy-grpc-lb.targetHost" . }}
             port_value: {{ .Values.loadbalancer.targetPort }}

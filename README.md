@@ -15,19 +15,19 @@ helm upgrade -i my-release envoy-grpc-lb/envoy-grpc-lb --set "loadbalancer.targe
 ```
 
 Or by including the chart as a dependcy in another chart.
+
 **Chart.yaml**
 ```yaml
 dependencies:
 - name: "envoy-grpc-lb"
   version: "v0.1.0"
   repository: "https://xenitab.github.io/envoy-grpc-lb"
+  alias: envoyGrpcLb
   condition: envoy-grpc-lb.enabled
 ```
 
 **values.yaml**
-```
-envoy-grpc-lb:
+```yaml
+envoyGrpcLb:
   enabled: true
-  loadbalancer:
-    targetHost: foo
 ```
