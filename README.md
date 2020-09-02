@@ -1,7 +1,9 @@
 # Envoy GRPC LB
 Helm chart to loadbalance GRPC with Envoy.
 
-![architecture](./assets/architecture.png)
+<p align="center">
+  <img src="./assets/architecture.png">
+</p>
 
 ## How To
 There are two ways this chart can be used.
