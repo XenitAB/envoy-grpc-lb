@@ -3,7 +3,17 @@ entries:
   envoy-grpc-lb:
   - apiVersion: v2
     appVersion: 1.11.1
-    created: "2020-09-02T13:05:13.731287318Z"
+    created: "2020-09-02T13:08:30.403167941Z"
+    description: Helm chart to setup a Envoy GRPC load balancer
+    digest: 084d3e852d43f0c4c5ae7e9ce85f02e71bc5711294694ffe2c9422a73c311d44
+    name: envoy-grpc-lb
+    type: application
+    urls:
+    - https://XenitAB.github.io/envoy-grpc-lb/envoy-grpc-lb-v0.1.1.tgz
+    version: v0.1.1
+  - apiVersion: v2
+    appVersion: 1.11.1
+    created: "2020-09-02T13:08:30.402776341Z"
     description: Helm chart to setup a Envoy GRPC load balancer
     digest: 64d507001ab872b41d8b7dfc8a299c9bf23f5ea823131e46190870f5f7366135
     name: envoy-grpc-lb
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://XenitAB.github.io/envoy-grpc-lb/envoy-grpc-lb-v0.1.0.tgz
     version: v0.1.0
-generated: "2020-09-02T13:05:13.730259139Z"
+generated: "2020-09-02T13:08:30.40212084Z"
