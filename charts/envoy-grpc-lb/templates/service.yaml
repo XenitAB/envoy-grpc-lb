@@ -5,7 +5,7 @@ metadata:
   labels:
     {{- include "envoy-grpc-lb.labels" . | nindent 4 }}
 spec:
-  type: ClusterIp
+  type: ClusterIP
   ports:
     - port: {{ .Values.loadbalancer.port }}
       targetPort: grpc
